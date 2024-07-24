@@ -184,4 +184,18 @@ sam build
 sam deploy --guided
 ```
 
+### Repositories for Download and Analysis
+
+1. **Express.js Repository**:
+   - [Download Express.js Sample](https://github.com/expressjs/express/archive/refs/heads/master.zip)
+   - [Express.js GitHub](https://github.com/expressjs/express)
+
+2. **AWS SAM Repository**:
+   - [Download AWS SAM Sample](https://github.com/aws/aws-sam-cli-app-templates/archive/refs/heads/master.zip)
+   - [AWS SAM GitHub](https://github.com/aws/aws-sam-cli-app-templates)
+
+### Conclusion
+
+This guide provides a clear path to converting an Express.js REST API into AWS Lambda functions using AWS SAM. By breaking each endpoint into individual Lambda functions and defining them in the SAM template, you create a scalable and serverless REST API.
+
 
